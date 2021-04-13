@@ -1,0 +1,55 @@
+/** @format */
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--white);
+  font-family: "Nunito", sans-serif !important;
+}
+
+input {
+  padding-left: 5px;
+}
+
+:root {
+  --mblue: #5267ff;
+  --white: #ffffff;
+  --grey-border: #707070;
+  --grey-text: #303030;
+  --darkblue-text: #0c3b8d;
+}
+
+.miniq-logo {
+  width: 170px;
+  height: auto;
+}
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+.internet-error {
+  height: 40px;
+  background: #ff8100;
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.internet-error p {
+  text-align: center;
+  font-size: 25px;
+  line-height: 40px;
+  color: #fff;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .miniq-logo {
+    width: 130px;
+    height: auto;
+  }
+}

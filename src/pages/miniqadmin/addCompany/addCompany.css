@@ -1,0 +1,137 @@
+#addCompany {
+  display: flex;
+}
+#addCompany .errata-style{
+  color: red;
+  font-size: small;
+  height: 20px;
+}
+#addCompany .logoImg{
+  width:100px;
+  height: 100px;
+}
+
+#addCompany .uploadLogo{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  border:1px solid  rgba(0, 0, 0, 0.16);
+  box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.16);
+  height: 150px;
+  width:160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+  border-radius:50%;
+}
+#addCompany .uploadLogo p{
+  margin:0px;
+  text-align: center;
+}
+#addCompany .radio-container{
+  display: flex;
+  margin-bottom: 20px;
+}
+#addCompany .form-check{
+  padding-left:0px !important;
+}
+#addCompany .contain{
+  width:50% !important;
+  min-height: 90vh;
+  margin:10px auto;
+  padding:0px 40px;
+  border-radius:10px;
+  display: inline;
+  box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.16);
+}
+#addCompany .form-group {
+  display: block;
+  width: 95%;
+  margin:5px 10px;
+}
+#addCompany .added{
+  display: inline-grid;
+  width: 45%;
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+#addCompany .indAdd{
+  display: flex;
+  justify-content: space-between;
+}
+#addCompany .add{
+  display:grid;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+#addCompany .addHead{
+ width:93%;
+  display: flex;
+  justify-content: space-between;
+}
+#addCompany .indAdd img{
+  margin-top:5px;
+  width:25px;
+  height:25px;
+}
+#addCompany h1{
+  color:var(--darkblue-text);
+  margin:20px 0px;
+}
+#addCompany label{
+  margin-top:5px;
+  font-size: 1rem;
+}
+#addCompany textarea{
+  /* margin-left: 1px; */
+  width:95%;
+  margin:0px 10px;
+}
+#addCompany .button-Col{
+  display: flex;
+  justify-content: center;
+}
+#addCompany .button{
+  margin-top:60px;
+ width:250px !important;
+ height:50px;
+}
+#addCompany .signup-loading{
+  margin-top:15px;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width:770px){
+  
+  #addCompany .contain{
+    width:100% !important;
+    margin-left:0px;
+    margin-top:0px;
+    padding:25px;
+  }
+  #addCompany .form-group{
+    margin:0px;
+    width:100%;
+  }
+  #addCompany .button{
+    margin-top:40px;
+    margin-bottom:80px;
+    width:150px !important;
+    height:50px;
+  }
+ 
+}
+
+/* @media (max-width:500px){
+  #addCompany .form-group{
+    width:95%;
+  }
+  #addCompany .added{
+    width:95%;
+  }
+}
+
+@media (min-width:760px) and (max-width:769px){
+ 
+} */

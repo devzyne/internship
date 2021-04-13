@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="MinimumQue" />
+    <!-- APPLE SUPPORT FOR PWA -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="MinimumQue" />
+
+    <meta name="msapplication-TileImage" content="./logo192.png" />
+    <meta name="msapplication-TileColor" content="#fff" />
+    <meta name="theme-color" content="#000000" />
+
+    <link rel="apple-touch-icon" href="./logo192.png" />
+    <link rel="manifest" href="./manifest.json" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>MinimumQue</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script>
+      if ("serviceWorker" in navigator) {
+         window.addEventListener("load", () => { 
+           navigator.serviceWorker.register("service-worker.js")
+            .then((reg) => console.log(`Successfully Registered Service Worker for : ${reg.scope}`))
+            .catch((e) => console.log(`Sevice Workers Registration Failed: ${e}`));
+         });
+      } else {
+        console.log("Service Workers not supported by the browser");
+      }
+    </script>
+  </body>
+</html>

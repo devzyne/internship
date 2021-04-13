@@ -1,0 +1,48 @@
+.toggle-buttons-first {
+  border-radius: 50px 0px 0px 50px !important;
+  width: 100%;
+}
+.toggle-buttons-second {
+  border-radius: 0px 50px 50px 0px !important;
+  width: 100%;
+}
+.for-reset {
+  border-radius: 50px 50px 50px 50px !important;
+  width: 100%;
+}
+.toggle-buttons {
+  display: flex;
+}
+.tabs {
+  width: 100%;
+}
+
+.tabs .btn-primary {
+  border-color: var(--mblue);
+  background-color: var(--mblue);
+}
+
+.tabs .btn-primary.focus,
+.tabs .btn-primary:focus {
+  color: #fff;
+  background-color: var(--mblue);
+  border-color: var(--mblue);
+  border-width: 0dp;
+  box-shadow: 0 0 0 0;
+}
+.tabs .btn-primary:hover {
+  background-color: var(--mblue);
+  opacity: 0.75;
+  border-color: var(--mblue);
+}
+
+.tabs .btn-outline-primary {
+  border-color: var(--mblue);
+  color: var(--mblue);
+}
+
+.tabs .btn-outline-primary:hover {
+  background-color: var(--mblue);
+  opacity: 0.5;
+  border-color: var(--mblue);
+}

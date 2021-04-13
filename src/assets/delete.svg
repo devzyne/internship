@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23" height="28" viewBox="0 0 23 28">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:#000}
+        </style>
+    </defs>
+    <g id="noun_Delete_1687559" opacity="0.73" transform="translate(-4.946 -7.5)">
+        <g id="Group_2691" transform="translate(4.946 8)">
+            <path id="Path_3262" d="M39.683 15.324v24.514H21.145V15.324" class="cls-2" transform="translate(-18.914 -12.838)"/>
+            <g id="Group_2690" transform="translate(7.038 3.176)">
+                <path id="Line_200" d="M0 0L0 16.979" class="cls-2"/>
+                <path id="Line_201" d="M0 0L0 16.979" class="cls-2" transform="translate(4.462)"/>
+                <path id="Line_202" d="M0 0L0 16.979" class="cls-2" transform="translate(8.924)"/>
+            </g>
+            <path id="Line_203" d="M0 0L23 0" class="cls-2" transform="translate(0 1.912)"/>
+            <path id="Rectangle_873" d="M0 0H5.1V1.912H0z" class="cls-2" transform="translate(8.95)"/>
+        </g>
+    </g>
+</svg>

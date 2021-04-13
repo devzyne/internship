@@ -1,0 +1,164 @@
+.mlogin {
+  display: flex;
+  flex-direction: row;
+}
+
+#login-screens .right-screen {
+  width: 60%;
+  height: 100vh;
+  padding-top: 5%;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  justify-content: right;
+}
+
+#login-screens .right-screen img {
+  height: 100%;
+  width: auto;
+}
+
+#login-screens .left-screen {
+  width: 40%;
+  min-width: 400px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+  font-family: Nunito;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.65;
+  letter-spacing: -0.6px;
+  text-align: left;
+  color: var(--darkblue-text);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: scroll;
+  height: 100%;
+}
+
+#login-screens .left-screen img {
+  padding-bottom: 50px;
+}
+
+#login-screens .ret-spin-pos {
+  display: flex;
+  justify-content: center;
+  min-height: 40px;
+}
+
+#login-screens .form-control {
+  width: 100% !important;
+  height: 45px !important;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.37);
+  border: solid 1px var(--grey-border);
+}
+
+#login-screens .label-head a {
+  margin-left: 50% !important;
+}
+
+#login-screens .btn {
+  margin-bottom: 20px;
+  width: 250px;
+  border-radius: 5rem !important;
+  background-color: var(--mblue) !important;
+  border-color: var(--mblue);
+  align-self: center;
+  padding-top: 10px;
+}
+
+#login-screens label {
+  width: 101px;
+  height: 25px;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0);
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0);
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--grey-text);
+}
+
+#login-screens .pos-head {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.btn-style {
+  display: flex;
+  justify-content: center;
+}
+
+#login-screens .pos-down {
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+}
+#login-screens .login-alert {
+  padding: 20px !important;
+}
+
+#login-screens .checkbox-label {
+  padding-bottom: 50px;
+}
+
+#login-screens .sp-icon {
+  padding-right: 10px;
+}
+
+#login-screens .errata-style {
+  color: #f32821;
+  margin-top: 0%;
+  font-size: small;
+  height: 30px;
+}
+
+#login-screens .input-relative {
+  position: relative;
+}
+
+#login-screens a {
+  text-align: right;
+  color: #407ffe;
+  font-weight: bold;
+}
+#login-screens .login-spinner {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#login-screens .main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  padding: 30px;
+}
+
+#login-screens .form-label {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  #login-screens .right-screen {
+    display: none !important;
+  }
+  #login-screens .left-screen {
+    width: 100%;
+    min-width: 100%;
+  }
+  #login-screens .btn {
+    width: 150px;
+  }
+}

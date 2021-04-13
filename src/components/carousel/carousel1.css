@@ -1,0 +1,54 @@
+.carousel_main{
+  display:flex;
+}
+.container{
+  height:50vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+#move img{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:450px;
+  height: 40vh;
+}
+.main{
+  border:1px solid black;
+  width:90%;
+  height:40vh;
+  overflow: hidden;
+}
+#move{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration:0s ;
+}
+.main ul li{
+  align-items: center;
+  list-style: none;
+  height: 40vh;
+  border:1px solid black;
+  font-size: 3rem;
+}
+#move:hover{
+  transition-delay: 5s;
+}
+
+ @media (max-width:400px){
+  #move img{
+    width:300px;
+  }
+} 
+@media (min-width:400px) and (max-width:700px){
+  #move img{
+    width:350px;
+  }
+}
+@media (min-width:700px) and (max-width:1000px){
+  #move img{
+    width:600px;
+  }
+}

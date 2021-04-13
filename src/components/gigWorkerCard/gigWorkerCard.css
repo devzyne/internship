@@ -1,0 +1,179 @@
+.no-padding {
+  padding: 0px;
+}
+
+.no-margin {
+  margin: 0px;
+}
+
+.c-tags {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  height: 20px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  width: fit-content;
+}
+
+.c-tags-rate {
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0);
+  font-family: Nunito;
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.24px;
+  text-align: left;
+  color: var(--grey-text);
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.star1 > p {
+  color: var(--mblue);
+  padding: 0px;
+  margin-bottom: 10px;
+}
+
+.star1 {
+  margin-left: 5px;
+  margin-right: 5px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100% !important;
+}
+.starRating .star-container {
+  display: flex;
+  width: 15px;
+  padding: 0px !important;
+}
+
+.widget-svg {
+  height: 15px !important;
+  width: 15px !important;
+}
+
+.starRating .star-ratings {
+  margin: 0px !important;
+}
+
+.c-tags p {
+  padding-left: 4px;
+  padding-right: 4px;
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0);
+  font-family: Nunito;
+  font-size: 13px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.58;
+  letter-spacing: 0.24px;
+  text-align: left;
+  color: var(--grey-text);
+  margin: 0;
+}
+.head-icon {
+  width: 44px;
+  height: 44px;
+  background-color: #b4e5ff;
+  border-radius: 25px;
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0);
+  font-family: Nunito;
+  font-size: 19px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.37;
+  letter-spacing: -0.57px;
+  text-align: center;
+  color: #5556f7;
+}
+.available_rate {
+  margin-top: 4px;
+  margin-left: 4px;
+  margin-right: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+.available_rate > p {
+  margin: 0;
+  font-size: 14px;
+}
+.worker-card {
+  display: inline-block;
+  width: 400px;
+  padding: 5px 5px 5px 5px;
+  margin: 10px 10px 10px 10px;
+  border-radius: 8px;
+  box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.16);
+  border: solid 1px #cfcfcf;
+  cursor: pointer;
+}
+.card-head {
+  width: 100%;
+  height: 60px;
+  border-radius: 7px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.id-no p {
+  width: max-content;
+  height: 15px;
+  font-family: Nunito;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.42px;
+  text-align: left;
+  margin-left: 8px;
+  margin-bottom: 2px;
+}
+.cardHead-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex: 1;
+}
+.cardHead-img img {
+  height: 28px;
+  margin: 5px;
+}
+
+.cardHead-img .bins {
+  display: none;
+}
+.bookmarked {
+  cursor: pointer;
+}
+
+.rates {
+  margin: 0px;
+  font-weight: bold;
+}
+
+.c-tags-tech {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.c-tags {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  margin: 5px;
+  font-size: 14px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+@media (max-width: 420px) {
+  .worker-card {
+    width: 300px;
+  }
+}

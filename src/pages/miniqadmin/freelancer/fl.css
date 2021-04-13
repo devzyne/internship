@@ -1,0 +1,18 @@
+.mfl-update {
+display: flex;
+}
+.mfl-img2 {
+flex: 1;
+}
+.mfl-txt {
+flex: 10;
+}
+.mfl-update-style {
+    color: #786ade;
+    padding-top: 5px;
+}
+.mfl-date {
+    flex: 4;
+    color: #786ade;
+    padding-top: 5px;
+}

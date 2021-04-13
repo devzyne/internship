@@ -1,0 +1,6 @@
+.job-cards-list {
+  width: 100%;
+  padding: 8px;
+  height: 400px;
+  overflow-y: scroll;
+}

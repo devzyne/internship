@@ -1,0 +1,185 @@
+.edit-profile {
+    display: flex;
+    justify-content: center;
+  }
+  #edit-pro Sidenav {
+    width: auto;
+  }
+  
+  #edit-pro .right-screen {
+    padding: 10px;
+    flex-grow: 2;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    display: flex;
+    font-family: Nunito;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.65;
+    letter-spacing: -0.6px;
+    text-align: left;
+    overflow: scroll;
+  }
+  
+  .edit-profile-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vw !important;
+    height: 100%;
+    padding: 25px;
+    box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.16);
+    border-radius: 15px;
+  }
+  
+  .edit-head-profile {
+    width: 100%;
+    padding-bottom: 5%;
+  }
+  
+  .edit-head-profile h2 {
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0);
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.65;
+    letter-spacing: -0.6px;
+    color: var(--darkblue-text);
+  }
+  .editp-avatar {
+    width: 100px;
+    height: 100px !important;
+    background-color: var(--mblue);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .editp-avatar p {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #edit-pro .form-group {
+    width: 80%;
+  }
+  #edit-pro .form-group label {
+    width: 100%;
+    height: 22px;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0);
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.06;
+    letter-spacing: -0.48px;
+    text-align: left;
+    color: var(--grey-text);
+  }
+  #edit-pro .edit-profile-content img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    align-self: center;
+  }
+  
+  #edit-pro .update-button {
+    position: relative;
+    border-radius: 100px !important;
+    align-self: center;
+    margin-bottom:50px;
+    border-radius: 100px !important;
+    width: 250px !important;
+    height: 50px !important;
+    bottom: -60px !important;
+    background-color: var(--mblue) !important;
+  }
+  #edit-pro .form-control {
+    width: 100% !important;
+  }
+  
+  #edit-pro .input-group {
+    position: relative;
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+    flex-wrap: nowrap;
+  }
+  
+  #edit-pro .custom-select {
+    width: auto !important;
+  }
+  #edit-pro .errata-style-green {
+    padding-left: 5px;
+    color: #086d0d;
+    font-size: 13px;
+  }
+  #edit-pro .errata-style-red {
+    padding-left: 5px;
+    color: red;
+    font-size: 13px;
+  }
+  
+  .edit-profile-loading {
+    display: flex;
+    justify-content: center;
+  }
+  .EP-btn-pos {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  /* #edit-pro .avatar {
+    align-self: center;
+    width: 130px;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  #edit-pro .editp-avatar p {
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0);
+    font-family: Nunito;
+    font-size: 40px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.72;
+    letter-spacing: 1.13px;
+    text-align: center;
+    color: white;
+    padding: 10px 0 0 0 !important;
+    padding: 0;
+    margin: 0;
+  } */
+  @media (max-width: 780px) {
+    .edit-profile-content {
+      width: 100% !important;
+      margin-bottom: 50px;
+      box-shadow: none;
+    }
+    #edit-pro .Sidenav {
+      display: none;
+    }
+    #edit-pro .editp-avatar {
+      width: 93px !important;
+      height: 93px !important;
+    }
+    .EP-btn-pos {
+      margin-bottom: 50px;
+    }
+    #edit-pro .form-group {
+      width: 100%;
+    }
+  }
+  

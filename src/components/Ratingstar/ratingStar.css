@@ -1,0 +1,9 @@
+.starRating .star-ratings{
+  margin-left:10px;
+  margin-bottom:5px;
+}
+.starRating .star-container{
+  display: flex;
+  width:20px;
+  padding:0px !important;
+}

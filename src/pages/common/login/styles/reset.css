@@ -1,0 +1,118 @@
+.reset-page-root {
+  display: flex;
+  flex-direction: row;
+}
+
+#reset-page .left-screen {
+  width: 40%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  overflow: scroll;
+  display: flex;
+  font-family: Nunito;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.65;
+  letter-spacing: -0.6px;
+  text-align: left;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#reset-page .right-screen {
+  width: 60%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+#reset-page .left-screen .retrieve-content {
+  width: 100%;
+  padding: 20px;
+  align-content: flex-start;
+  color: var(--darkblue-text);
+}
+
+#reset-page .left-screen img {
+  padding-bottom: 50px;
+}
+
+#reset-page .left-screen h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#reset-page .left-screen form {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  width: 100%;
+}
+
+#reset-page .form-control {
+  width: 100% !important;
+  height: 45px !important;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.37);
+  border: solid 1px var(--grey-border);
+}
+
+#reset-page .retrieve-down {
+  padding-top: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#reset-page .ret-spin-pos {
+  display: flex;
+  justify-content: center;
+  min-height: 40px;
+}
+
+#reset-page .btn {
+  margin-bottom: 20px;
+  width: 250px;
+  border-radius: 5rem !important;
+  background-color: var(--mblue) !important;
+  border-color: var(--mblue);
+  align-self: center;
+  padding-top: 10px;
+}
+
+#reset-page .error-green {
+  color: green;
+  margin-top: 0%;
+  font-size: small;
+}
+#reset-page .error-red {
+  color: red;
+  font-size: small;
+}
+
+#reset-page .error-rg-pos {
+  height: 30px;
+  line-height: 0%;
+}
+
+#reset-page .go-back {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  #reset-page .right-screen {
+    display: none !important;
+  }
+  #reset-page .left-screen {
+    width: 100%;
+    height: 100vh;
+  }
+  #reset-page .btn {
+    width: 150px;
+  }
+}

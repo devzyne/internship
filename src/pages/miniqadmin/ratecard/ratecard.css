@@ -1,0 +1,50 @@
+.ratecard-input {
+  align-self: left;
+  width: 90%;
+  margin: 0 10% 0 10%;
+}
+.rate-card {
+  justify-content: flex-start !important;
+}
+.rate-card .btn {
+  display: flex;
+  margin: 20px;
+  width: 200px;
+  border-radius: 5rem !important;
+  background-color: var(--mblue) !important;
+  border-color: var(--mblue);
+  align-self: center;
+  padding-top: 10px;
+  justify-content: center;
+}
+.download-link {
+  float: left;
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 5% auto 5% 5%;
+}
+.download-link a {
+  display: block !important;
+}
+.rate-card-button {
+  display: flex !important;
+  justify-content: space-around;
+}
+.file-upload {
+  display: block;
+  justify-content: center;
+}
+.file-upload input {
+  display: block !important;
+  justify-content: center;
+}
+@media (max-width: 880px) {
+  .rate-card .btn {
+    width: 150px;
+  }
+  .button-div {
+    margin: 20px 20px 0 20px;
+  }
+}

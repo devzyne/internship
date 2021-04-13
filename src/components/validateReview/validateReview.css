@@ -1,0 +1,26 @@
+.text-area {
+  border: 1px solid lightgray;
+  min-height: 150px;
+  width: 100%;
+  border-radius: 4px;
+  padding: 10px;
+}
+.submit-button {
+  display: flex;
+  justify-content: center;
+}
+.button-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.button-box > button {
+  margin-top: 20px;
+}
+.button-box > p {
+  width: 100%;
+  text-align: right;
+  color: var(--mblue);
+  cursor: pointer;
+  margin: 0px;
+}

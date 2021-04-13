@@ -1,0 +1,74 @@
+.sidenav {
+  display: flex;
+  flex-direction: column;
+  background-color: #d8d8d8;
+  border-radius: 15px;
+  height: 100%;
+  width: 240px;
+  -webkit-transition: width 0.2s linear;
+  transition: width 0.2s linear;
+  margin-left: 10px !important;
+  margin-top: 10px;
+  font-family: "Nunito";
+}
+
+.sidenav-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-border {
+  width: 100px !important;
+  height: 100px !important;
+  background-color: white;
+  border-radius: 100px;
+  margin-top: 22px;
+  margin-bottom: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-img {
+  width: 70px;
+  height: auto;
+}
+
+.sidenav-content {
+  margin: 20px;
+}
+.sidenav-list {
+  list-style: none;
+  margin-top: 10px;
+}
+.sidenav-list-item {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.sidenav-list-item:hover {
+  background-color: darkgray;
+  cursor: pointer;
+}
+.sidenav-list-item p {
+  margin: 0;
+  margin-left: 15px;
+}
+.sidenav-list-item img {
+  height: 25px;
+}
+.sidenav-title {
+  margin: 0;
+  margin: 0;
+  color: #666666;
+  letter-spacing: 3px;
+  font-size: smaller;
+}
+
+@media (max-width: 769px) {
+  .sidenav {
+    display: none !important;
+  }
+}

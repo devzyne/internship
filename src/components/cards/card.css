@@ -1,0 +1,56 @@
+.mqcard-image {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+  min-height: 30px;
+  flex: 1;
+  align-items: flex-end;
+}
+.mqcard-image img {
+  width: 30px;
+}
+.mqcard-text {
+  padding-top: 0px;
+  margin: 0;
+  overflow: hidden;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+.mqcard {
+  position: relative;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-size: smaller;
+  width: 22.5%;
+  /* width: calc(100% / 4); */
+  min-width: 120px;
+  /* flex: 1; */
+  padding: 8px;
+  border: 1px solid #8f8f8f;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+
+.mqcard > p {
+  text-overflow: ellipsis;
+}
+
+.mqcard:nth-child(1n + 1) {
+  margin-left: calc((100% / 4) * 0.05);
+  margin-right: calc((100% / 4) * 0.05);
+}
+
+.mqcard-tick {
+  display: inline;
+  width: max-content;
+  position: absolute;
+  right: -5px;
+  top: -5px;
+  z-index: 1;
+  border-radius: 50px;
+  background-color: var(--mblue);
+}

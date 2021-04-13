@@ -1,0 +1,13 @@
+#miniqTech .button {
+    border-radius: 10px;
+    border: solid 3px #707070;
+    width: 200px;
+    background-color: white;
+    color: #707070;
+}
+
+#miniqTech .button-col {
+width: 100%;
+display: flex;
+justify-content: left;
+}

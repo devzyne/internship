@@ -1,0 +1,10 @@
+.button {
+  background-color: var(--mblue);
+  color: var(--white);
+  border: none;
+  border-radius: 7rem;
+  font-size: 18px;
+  line-height: 1.11;
+  min-width: 150px;
+  padding: 12px;
+}
