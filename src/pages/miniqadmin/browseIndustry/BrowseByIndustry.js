@@ -91,8 +91,8 @@ function BrowseByIndustry({ onClick, addChips, addIndustry, data }) {
             }}
           />
         </div>
-        <Row>
-          {indList.map((ind, index) => (
+         {/*<Row>
+          { indList.map((ind, index) => (
             <Col className="explore-tech-col">
               <IndustrySectorCard
                 industry={ind}
@@ -101,7 +101,7 @@ function BrowseByIndustry({ onClick, addChips, addIndustry, data }) {
               />
             </Col>
           ))}
-        </Row>
+          </Row> */}
       </div>
     </div>
   );

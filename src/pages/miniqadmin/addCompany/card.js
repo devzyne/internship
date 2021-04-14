@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 
-import DeleteIcon from "../../assets/delete.svg";
-import RemindIcon from "../../assets/remind.png";
-import ArchiveIcon from "../../assets/archive.svg";
-import UnArchiveIcon from "../../assets/un-archive.svg";
+import DeleteIcon from "../../../assets/delete.svg";
+import RemindIcon from "../../../assets/remind.png";
+import ArchiveIcon from "../../../assets/archive.svg";
+import UnArchiveIcon from "../../../assets/un-archive.svg";
 import Spinner from "react-bootstrap/Spinner";
 import Modal from "react-bootstrap/Modal";
 import { BasePath } from "../../../globals/serviceURLs";

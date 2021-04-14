@@ -1,0 +1,13 @@
+#companyList {
+  display: flex;
+}
+
+#companyList .contain {
+  width: 50% !important;
+  min-height: 90vh;
+  margin: 10px auto;
+  padding: 0px 50px;
+  border-radius: 10px;
+  display: inline;
+  box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.16);
+}

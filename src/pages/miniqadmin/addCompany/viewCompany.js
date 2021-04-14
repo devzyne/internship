@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import Button from "../../components/button/Button";
-import Sidenav from "../../components/sidenav/Sidenav";
-import BottomNav from "../../components/bottomNav/BottomNav";
-import customerType from "../../assets/customer_type.png";
-import partnerType from "../../assets/partner_type.png";
-import { BasePath } from '../../globals/serviceURLs';
-import { authGet, get } from "../../api/api";
+import Button from "../../../components/button/Button";
+import Sidenav from "../../../components/sidenav/Sidenav";
+import BottomNav from "../../../components/bottomNav/BottomNav";
+import customerType from "../../../assets/customer_type.png";
+import partnerType from "../../../assets/partner_type.png";
+import { BasePath } from '../../../globals/serviceURLs';
+import { authGet,get } from "../../../api/api";
 import { useHistory, Redirect } from "react-router-dom";
 import "./viewCompany.css";
 function ViewCompany() {
@@ -168,13 +168,13 @@ function ViewCompany() {
               className="button"
               type="submit"
               text="Add Admin"
-              onClick={() => history.push("/company/admin")}
+              onClick={() => history.push("/company/add-admin")}
             />
             <Button
               className="button"
               type="submit"
               text="Add Domain"
-              onClick={() => history.push("/company/domain")}
+              onClick={() => history.push("/company/add-domain")}
             />
             <Button
               className="button"

@@ -1,12 +1,12 @@
 import React, { useState, useRef } from "react";
-import Tabs from "../../components/tabs/Tabs";
+import Tabs from "../../../components/tabs/Tabs";
 import Spinner from "react-bootstrap/Spinner";
-import { put } from "../../api/api";
-import Sidenav from "../../components/sidenav/Sidenav.js";
+import { put } from "../../../api/api";
+import Sidenav from "../../../components/sidenav/Sidenav.js";
 import "./add.css";
 import file from "./emails/emails.csv";
-import BottomNav from "../../components/bottomNav/BottomNav";
-import { BasePath } from "../../globals/serviceURLs";
+import BottomNav from "../../../components/bottomNav/BottomNav";
+import { BasePath } from "../../../globals/serviceURLs";
 
 function AddCompanyAdmin() {
   const [page, setPage] = useState(0);

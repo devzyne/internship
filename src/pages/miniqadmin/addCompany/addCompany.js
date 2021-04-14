@@ -495,7 +495,7 @@ function AddCompany(props) {
                 className="button"
                 type="submit"
                 text="Add"
-              // onClick={props.handleSubmit}
+               //onClick={props.handleSubmit}
               />
             </Col>
           </Row>

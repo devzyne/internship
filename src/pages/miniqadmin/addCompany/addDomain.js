@@ -1,11 +1,11 @@
 import React, { useState, useRef } from "react";
-// import Tabs from "../../components/tabs/Tabs";
+ import Tabs from "../../../components/tabs/Tabs";
 import Spinner from "react-bootstrap/Spinner";
-import { put } from "../../api/api";
-import Sidenav from "../../components/sidenav/Sidenav.js";
+import { put } from "../../../api/api";
+import Sidenav from "../../../components/sidenav/Sidenav.js";
 import "./add.css";
-import BottomNav from "../../components/bottomNav/BottomNav";
-import { BasePath } from "../../globals/serviceURLs";
+import BottomNav from "../../../components/bottomNav/BottomNav";
+import { BasePath } from "../../../globals/serviceURLs";
 
 function AddCompanyDomain() {
   const [page, setPage] = useState(0);
@@ -24,7 +24,7 @@ function AddCompanyDomain() {
       success: false,
     });
     setLoading(true);
-    const path = "/cmpny/domain/add";
+    const path = "/company/add-domain";
     const token = localStorage.AccessToken;
     const params = {
       dmns: email.trim().split(","),

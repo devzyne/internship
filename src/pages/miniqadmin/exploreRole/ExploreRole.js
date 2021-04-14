@@ -20,7 +20,7 @@ import { addChips } from "../../../redux/actions/uiActions";
 import BackIcon from "../../../assets/back.svg";
 import "../exploreTechnology/tech.css";
 
-function ExploreTechnology({ onClick, addChips, addTechnology }) {
+function ExploreRoles({ onClick, addChips, addTechnology }) {
   const [techList, setTechList] = useState([]);
   const [showModal, setShowModal] = useState(false);
   const [name, setName] = useState();
@@ -181,4 +181,4 @@ const mapActionToProps = {
   addChips,
 };
 
-export default connect(null, mapActionToProps)(ExploreTechnology);
+export default connect(null, mapActionToProps)(ExploreRoles);

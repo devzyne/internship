@@ -9,7 +9,11 @@ import Tnc from "../pages/common/tnc/tnc";
 import CompanyCard from "../pages/miniqadmin/companycard/companycard";
 //import PartnerAdminHome from "../pages/partner/admin/adminHome/index";
 import Freelance from "../pages/miniqadmin/freelance/Freelance";
-
+import ViewCompany from "../pages/miniqadmin/addCompany/viewCompany";
+import  AddCompanyDomain from "../pages/miniqadmin/addCompany/addDomain.js";
+import  AdminHome from "../pages/miniqadmin/freelance/FreelanceAdmin.js";
+import  AddCompanyAdmin from "../pages/miniqadmin/addCompany/addAdmin";
+import CompanyDomainPage from "../pages/miniqadmin/addCompany/domainpage";
 import FreelanceAdmin from "../pages/miniqadmin/freelance/FreelanceHomeCard";
 import FreelanceVerify from "../pages/miniqadmin/freelance/verifyFreelancer";
 
@@ -18,12 +22,15 @@ import Payments from "../pages/miniqadmin/freelance/Payment";
 // import ContingentWorkerProfile from "../pages/partner/contingentworker/partnerWorkerDashboard/partnerdashboard";
 // import ContingentWorkerJobProfile from "../pages/partner/contingentworker/partnerWorkerDashboard/partnerdashboard";
 import MiniqAdminHome from "../pages/miniqadmin/miniqAdmin";
-import AdminHomeCard from "../pages/miniqadmin/freelance/FreelanceHomeCard"; //new2
+import AdminHomeCard from "../pages/miniqadmin/addCompany/card"; //new2
 import AdminHomeCompanyCard  from "../pages/miniqadmin/company/companyHomeCard";
-import AddCompany from "../pages/miniqadmin/addCompany/index";
-import AddRateCard from "../pages/miniqadmin/ratecard/ratecard";
-import ResetPassword from "../pages/common/login/reset";
-import RateCard from "../pages/miniqadmin/ratecard/ratecard";  //new2
+
+import CompanyList from '../pages/miniqadmin/CompanyList';
+import AddComp from "../pages/miniqadmin/addCompany/index";
+import AddRateCard from "../pages/miniqadmin/ratecard/ratecard";  //new2
+import BrowseByIndustry from "../pages/miniqadmin/browseIndustry/BrowseByIndustry";
+import ExploreRoles from "../pages/miniqadmin/exploreRole/ExploreRole";
+import ExploreTechnology from "../pages/miniqadmin/exploreTechnology/ExploreTechnology";
 
 /*export const ROUTES = [
    {
@@ -152,14 +159,23 @@ function Routes() {
       <Switch>
        <Route exact path="/freelance" component={Freelance}/>
        <Route exact path="/freelance/verify" component={FreelanceVerify}/>
+       <Route exact path="/freelance-payments" component={Payments} />
        <Route exact path="/tnc" component={Tnc} />
        <Route exact path="/miniq/admin" component={MiniqAdmin} />
-       <Route exact path="/miniq/freelancerHomeCard" component={AdminHomeCard} />
-       <Route exact path="/admin/company/search" component={AddCompany} />
+       <Route exact path="/freelance/adminhome" component={AdminHome}/> 
+       <Route exact path="/cards" component={AdminHomeCard} /> 
        <Route exact path="/miniq/admin/home" component={MiniqAdminHome} />
-       <Route exact path="/freelance-payments" component={Payments} />
-       <Route exact path="/company-ratecard" component={RateCard} />
-       
+       <Route exact path="/company-ratecard" component={AddRateCard} />
+       <Route exact path="/company/view" component={ViewCompany}/>
+       <Route exact path="/company/domain" component={CompanyDomainPage}/>
+       <Route exact path="/company/add-domain" component={AddCompanyDomain}/>
+       <Route exact path="/company/add" component={AddComp}/>
+       <Route exact path="/company/add-admin" component={ AddCompanyAdmin}/>
+       <Route exact path="/miniq/companyHomeCard" component={AdminHomeCompanyCard}/>
+       <Route exact path="/company/list" component={CompanyList} />
+       <Route exact path="/explore/industry" component={BrowseByIndustry} />
+       <Route exact path="/explore/technologies" component={ExploreTechnology} />
+       <Route exact path="/explore/roles" component={ExploreRoles}/>
       </Switch>
     </div>
   )

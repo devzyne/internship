@@ -308,7 +308,7 @@ function AddComp() {
       setError({ ...error, Eind: "Required" });
     } else {
       setComp({ ...comp, errors: !valid, loading: true });
-      const path = "/cmpny/add";
+      const path = "/company/add";
       const params = {
         a1: comp.a1,
         a2: comp.a2,
@@ -345,7 +345,7 @@ function AddComp() {
         .then((res) => {
           setComp({ ...comp, loading: false });
           if (res) {
-            history.push("/view-company");
+            history.push("/company/view");
           }
         })
         .catch((err) => {

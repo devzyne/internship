@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from "react";
 import { useHistory } from "react-router-dom";
 import Spinner from "react-bootstrap/Spinner";
-import Placeholder from "../../assets/no_manager_placeholder.svg";
+import Placeholder from "../../../assets/no_manager_placeholder.svg";
 import AdminHomeCard from "./card";
-import Sidenav from "../../components/sidenav/Sidenav.js";
-import Pagination from "../../components/Pagination/Pagination";
-import plus from "../../assets/plus.png";
-import { authGet } from "../../api/api";
-import BottomNav from "../../components/bottomNav/BottomNav";
-import { BasePath } from "../../globals/serviceURLs";
+import Sidenav from "../../../components/sidenav/Sidenav.js";
+import Pagination from "../../../components/Pagination/Pagination";
+import plus from "../../../assets/plus.png";
+import { authGet } from "../../../api/api";
+import BottomNav from "../../../components/bottomNav/BottomNav";
+import { BasePath } from "../../../globals/serviceURLs";
 import "./adminDomain.css";
 
 function CompanyDomainPage() {
